@@ -8,7 +8,7 @@ html {
 }
 
 .active {
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%) !important;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%) !important;
 }
 
 .wrapper {
@@ -18,9 +18,9 @@ html {
 
 .reward {
     border-radius: 5px;
-    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
     padding: 25px;
-    color: #7048e8;
+    color: #e9ecef;
     text-align: center;
 }
 
@@ -109,6 +109,10 @@ html {
     margin: 70px 0;
     max-width: 85%;
     max-height: 85%;
+}
+
+.pico-content {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 #reward_modal {

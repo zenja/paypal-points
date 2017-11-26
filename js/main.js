@@ -209,9 +209,9 @@ function start() {
                     setTimeout(function () {
                         stopRing()
                         finalRings()
-                    }, 1800)
-                }, 2500)
-            }, 3500)
+                    }, 1300)
+                }, 2000)
+            }, 3200)
         }, 4000)
     }, 4500)
 }
