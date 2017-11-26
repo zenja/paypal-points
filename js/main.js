@@ -22,7 +22,7 @@ const rewards = [
     },
     {
         title: "iPad Wi-Fi 32GB",
-        img: "img/iPad.png",
+        img: "img/ipad.png",
         chance: 0,
     },
     {
