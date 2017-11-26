@@ -62,6 +62,9 @@ const rewards = [
     },
 ]
 
+const audioRing = new Audio('audio/ring.wav')
+const audioCheers = new Audio('audio/cheers.mp3')
+
 function selfCheck() {
     if (rewards.length != N) {
         return false
@@ -167,6 +170,7 @@ function showReward() {
     content += '<p>' + title + '</p>'
     content += '</div>'
 
+    audioCheers.play()
     picoModal({
         content: content,
         overlayStyles: function (styles) { styles.opacity = 0 },
@@ -198,6 +202,7 @@ function start() {
     // ring for a while
     window.timeout = 30
     ring()
+    audioRing.play()
     setTimeout(function () {
         window.timeout = 50
         setTimeout(function () {
@@ -209,11 +214,11 @@ function start() {
                     setTimeout(function () {
                         stopRing()
                         finalRings()
-                    }, 1300)
-                }, 2000)
-            }, 3200)
-        }, 4000)
-    }, 4500)
+                    }, 1000)
+                }, 1500)
+            }, 2400)
+        }, 3200)
+    }, 3500)
 }
 
 function clear() {
