@@ -1,19 +1,19 @@
 const N = 12
 const rewards = [
     {
-        title: "橘子一片",
+        title: "美女手剥橘子一片<br>不甜包退",
         img: "img/orange.png",
-        chance: 200,
+        chance: 600,
     },
     {
-        title: "iPhone X",
+        title: "谁的 iPhone X",
         img: "img/iphonex.png",
         chance: 0,
     },
     {
-        title: "熊抱",
+        title: "意外的熊抱",
         img: "img/hug.png",
-        chance: 200,
+        chance: 30,
     },
     {
         title: "兰博基尼 10 元优惠券",
@@ -21,42 +21,42 @@ const rewards = [
         chance: 0,
     },
     {
-        title: "iPad Wi-Fi 32GB",
+        title: "谁的 iPad",
         img: "img/ipad.png",
         chance: 0,
     },
     {
-        title: "手纸一张",
+        title: "至尊手纸一张",
         img: "img/tissue.png",
         chance: 800,
     },
     {
-        title: "Macbook Pro",
+        title: "这个 Macbook Pro",
         img: "img/macbookpro.png",
         chance: 1,
     },
     {
-        title: "优质茶包一枚",
+        title: "来自毛里求斯的茶包",
         img: "img/teabag.png",
-        chance: 200,
+        chance: 300,
     },
     {
-        title: "白富美一枚",
+        title: "我们组的白富美一枚",
         img: "img/bfm.png",
         chance: 0,
     },
     {
-        title: "白水一杯",
+        title: "至尊白水一杯",
         img: "img/water.png",
+        chance: 50,
+    },
+    {
+        title: "真的药丸",
+        img: "img/pill.png",
         chance: 300,
     },
     {
-        title: "药丸",
-        img: "img/pill.png",
-        chance: 100,
-    },
-    {
-        title: "PayPal Coffee 一杯",
+        title: "PayPal Coffee 一杯<br>自取不谢",
         img: "img/coffee.png",
         chance: 50,
     },
